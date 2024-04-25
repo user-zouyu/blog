@@ -4,6 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "ZouYu Blog",
     description: "个人博客记录！",
+    base: "/blog",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
